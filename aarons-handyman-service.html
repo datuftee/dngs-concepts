@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aaron's Handyman Service — Handyman in Davenport, IA</title>
+<style>
+  :root{
+    --blue:#2f6b33; --blue-dark:#1f4d23; --sky:#e6f2e6; --ink:#1f2a20;
+    --muted:#5c685c; --line:#cfe0cf; --white:#ffffff; --accent:#e07b24;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.55}
+  a{color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  .topbar{background:var(--blue-dark);color:#fff}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 20px;flex-wrap:wrap}
+  .brand{font-size:1.25rem;font-weight:800}
+  .brand small{display:block;font-size:.78rem;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;color:#a9d1ab}
+  .top-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .top-phone{font-weight:700;text-decoration:none;font-size:1.05rem}
+  .btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:6px;padding:12px 22px;text-align:center}
+  .btn-call{background:var(--accent);color:#fff}
+  .btn-call:hover{background:#c96a1d}
+  .hero{background:linear-gradient(140deg,#1f4d23 0%,#2f6b33 60%,#47824b 120%);color:#fff;padding:64px 0 56px}
+  .hero h1{font-size:2.5rem;line-height:1.15;max-width:660px;margin-bottom:14px}
+  .hero p{font-size:1.15rem;color:#d9ecd9;max-width:560px;margin-bottom:28px}
+  .hero .btn{font-size:1.1rem;padding:15px 30px}
+  .hero-note{margin-top:14px;font-size:.95rem;color:#b5d6b6}
+  .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}
+  .hero-photo{width:100%;height:100%;min-height:300px;max-height:460px;object-fit:cover;border-radius:8px;box-shadow:0 12px 32px rgba(0,0,0,.25)}
+  .section-photo{display:block;width:100%;height:320px;object-fit:cover;border-radius:8px;margin-bottom:34px;box-shadow:0 6px 20px rgba(0,0,0,.12)}
+  @media (max-width:820px){
+    .hero .wrap{grid-template-columns:1fr}
+    .hero-photo{height:250px;min-height:0}
+    .section-photo{height:220px}
+  }
+  section{padding:56px 0}
+  .section-title{font-size:1.8rem;margin-bottom:8px}
+  .section-sub{color:var(--muted);margin-bottom:30px;max-width:620px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px}
+  .card{border:1px solid var(--line);border-radius:8px;padding:22px 18px;background:#fff}
+  .card .tag{display:inline-block;background:var(--sky);color:var(--blue-dark);font-size:.72rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;border-radius:4px;padding:3px 8px;margin-bottom:10px}
+  .card h3{font-size:1.08rem;margin-bottom:8px}
+  .card p{color:var(--muted);font-size:.95rem}
+  .why{background:var(--sky)}
+  .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+  .why-item h3{font-size:1.05rem;margin-bottom:6px;color:var(--blue-dark)}
+  .why-item p{color:var(--muted);font-size:.95rem}
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px}
+  .contact-info p{margin-bottom:14px;color:var(--muted)}
+  .contact-info strong{color:var(--ink)}
+  .contact-info .big-phone{font-size:1.5rem;font-weight:800;color:var(--blue-dark);text-decoration:none}
+  form{display:grid;gap:12px}
+  label{font-size:.9rem;font-weight:600}
+  input,textarea{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:6px;font:inherit;background:#fff}
+  textarea{min-height:96px;resize:vertical}
+  button[type=submit]{background:var(--blue);color:#fff;border:0;border-radius:6px;padding:13px 20px;font:inherit;font-weight:700;cursor:pointer}
+  button[type=submit]:hover{background:var(--blue-dark)}
+  footer{background:var(--blue-dark);color:#c4dfc5;padding:28px 0;font-size:.85rem}
+  footer .fine{margin-top:8px;color:#82ad84}
+  @media (max-width:720px){
+    .hero h1{font-size:1.9rem}
+    .contact-grid{grid-template-columns:1fr}
+    .topbar .wrap{justify-content:center;text-align:center}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">Aaron's<small>Handyman Service</small></div>
+    <div class="top-actions">
+      <a class="top-phone" href="tel:+15633205027">(563) 320-5027</a>
+      <a class="btn btn-call" href="tel:+15633205027">Call Now</a>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-text">
+    <h1>Got a Fix-It List in Davenport?</h1>
+    <p>Aaron's Handyman Service tackles the repairs and odd jobs that pile up around the house — so you can hand the list over and get it done.</p>
+    <a class="btn btn-call" href="tel:+15633205027">Call (563) 320-5027</a>
+    <div class="hero-note">Serving Davenport &amp; the Quad Cities area</div>
+    </div>
+    <!-- Photo: Pexels photo 17063686 — https://images.pexels.com/photos/17063686/pexels-photo-17063686.jpeg (found via https://www.pexels.com/photo/a-man-wearing-work-clothes-and-a-belt-with-tools-standing-on-a-ladder-17063686/) — free to use under the Pexels License -->
+    <img class="hero-photo" src="https://images.pexels.com/photos/17063686/pexels-photo-17063686.jpeg?auto=compress&cs=tinysrgb&w=1260" alt="Handyman wearing a tool belt, standing on a ladder">
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-sub">One call for the small jobs — no project too ordinary.</p>
+    <div class="cards">
+      <div class="card"><span class="tag">Handyman</span><h3>General Repairs</h3><p>The everyday fixes around the house that need a skilled hand and the right tools.</p></div>
+      <div class="card"><span class="tag">Handyman</span><h3>Carpentry</h3><p>Trim, doors, shelving, and wood repairs handled with care.</p></div>
+      <div class="card"><span class="tag">Handyman</span><h3>Drywall</h3><p>Holes, dents, and damaged drywall patched and smoothed out.</p></div>
+      <div class="card"><span class="tag">Handyman</span><h3>Painting Touch-Ups</h3><p>Scuffs, patches, and small paint jobs freshened up.</p></div>
+      <div class="card"><span class="tag">Handyman</span><h3>Odd Jobs</h3><p>That list on the fridge? Bring it — mounting, fixing, adjusting, and more.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <!-- Photo: Pexels photo 1249611 — https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg (found via https://www.pexels.com/photo/person-using-dewalt-cordless-impact-driver-on-brown-board-1249611/) — free to use under the Pexels License -->
+    <img class="section-photo" src="https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&w=1260" alt="Worker driving screws into a board with a cordless impact driver">
+    <h2 class="section-title">Why Homeowners Call Us</h2>
+    <p class="section-sub">A local hand for the jobs you don't have time — or tools — for.</p>
+    <div class="why-grid">
+      <div class="why-item"><h3>Local &amp; Nearby</h3><p>Based in Davenport — a local business, not a national call center.</p></div>
+      <div class="why-item"><h3>Free to Call</h3><p>Describe the job and talk it through. Calling costs nothing.</p></div>
+      <div class="why-item"><h3>Quad Cities Proud</h3><p>Serving homeowners throughout the Quad Cities area, both sides of the river.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="section-sub">Call today, or send a quick message and we'll get back to you.</p>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p><a class="big-phone" href="tel:+15633205027">(563) 320-5027</a></p>
+        <p><strong>Aaron's Handyman Service</strong><br>6825 N Pine St<br>Davenport, IA</p>
+        <p>Serving Davenport and the greater Quad Cities area.</p>
+      </div>
+      <div>
+        <!-- Demo form for concept demonstration only — not connected to any backend. -->
+        <form action="#" method="post">
+          <div>
+            <label for="f-name">Your name</label>
+            <input id="f-name" name="name" type="text" placeholder="Jane Smith">
+          </div>
+          <div>
+            <label for="f-phone">Phone number</label>
+            <input id="f-phone" name="phone" type="tel" placeholder="(563) 555-0123">
+          </div>
+          <div>
+            <label for="f-msg">How can we help?</label>
+            <textarea id="f-msg" name="message" placeholder="Tell us what you'd like fixed or done..."></textarea>
+          </div>
+          <button type="submit">Request a Callback</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>Aaron's Handyman Service · 6825 N Pine St, Davenport, IA · <a href="tel:+15633205027">(563) 320-5027</a></div>
+    <div class="fine">Concept website designed by DNGS Designs for demonstration purposes. This is not the official website of Aaron's Handyman Service.</div>
+  </div>
+</footer>
+
+</body>
+</html>
